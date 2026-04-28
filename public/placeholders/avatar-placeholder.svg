@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 860" fill="none">
+  <defs>
+    <linearGradient id="a" x1="80" y1="40" x2="600" y2="760" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE" stop-opacity="0.25"/>
+      <stop offset="0.52" stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0.24"/>
+    </linearGradient>
+    <linearGradient id="b" x1="130" y1="150" x2="540" y2="700" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#93C5FD" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#A78BFA" stop-opacity="0.15"/>
+    </linearGradient>
+  </defs>
+  <rect width="700" height="860" rx="36" fill="#07101C"/>
+  <rect x="24" y="24" width="652" height="812" rx="28" fill="url(#a)" stroke="#1E293B"/>
+  <circle cx="350" cy="280" r="118" fill="#0F172A" stroke="#67E8F9" stroke-opacity="0.5" stroke-width="2"/>
+  <path d="M198 650C215 543 266 492 350 492C434 492 485 543 502 650" fill="#0F172A" stroke="#A5B4FC" stroke-opacity="0.5" stroke-width="2"/>
+  <rect x="120" y="96" width="460" height="668" rx="28" stroke="url(#b)" stroke-dasharray="12 10"/>
+  <g opacity="0.72" font-family="Arial, sans-serif" text-anchor="middle">
+    <text x="350" y="94" fill="#E2E8F0" font-size="28" font-weight="700">PLACEHOLDER</text>
+    <text x="350" y="760" fill="#94A3B8" font-size="24">Тут должен быть аватар / портрет / key art</text>
+    <text x="350" y="798" fill="#64748B" font-size="18">Замените файл в public/placeholders</text>
+  </g>
+</svg>

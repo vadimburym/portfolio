@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" fill="none">
+  <defs>
+    <linearGradient id="g" x1="120" y1="60" x2="1100" y2="660" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0.18"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="720" rx="34" fill="#07101C"/>
+  <rect x="24" y="24" width="1152" height="672" rx="26" fill="url(#g)" stroke="#1E293B"/>
+  <rect x="118" y="124" width="964" height="472" rx="28" stroke="#94A3B8" stroke-dasharray="18 16"/>
+  <path d="M184 532L358 346L496 446L668 276L892 506L1018 388" stroke="#67E8F9" stroke-opacity="0.58" stroke-width="8" stroke-linecap="round"/>
+  <rect x="202" y="174" width="188" height="112" rx="18" fill="#0F172A" stroke="#67E8F9" stroke-opacity="0.45"/>
+  <g opacity="0.84" font-family="Arial, sans-serif" text-anchor="middle">
+    <text x="600" y="94" fill="#E2E8F0" font-size="34" font-weight="700">SCREENSHOT PLACEHOLDER</text>
+    <text x="600" y="352" fill="#E2E8F0" font-size="46" font-weight="700">Тут должен быть дополнительный скриншот игры</text>
+    <text x="600" y="414" fill="#94A3B8" font-size="28">Листайте внутри карточки, чтобы показать больше экранов проекта</text>
+  </g>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 540" fill="none">
+  <defs>
+    <linearGradient id="g" x1="80" y1="50" x2="780" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0.18"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="540" rx="28" fill="#07101C"/>
+  <rect x="24" y="24" width="852" height="492" rx="22" fill="url(#g)" stroke="#1E293B"/>
+  <path d="M180 230L450 122L720 230L450 338L180 230Z" fill="#0F172A" stroke="#7DD3FC" stroke-width="3"/>
+  <path d="M250 276V344C250 381 341 414 450 414C559 414 650 381 650 344V276" stroke="#A5B4FC" stroke-width="3"/>
+  <g opacity="0.82" font-family="Arial, sans-serif" text-anchor="middle">
+    <text x="450" y="92" fill="#E2E8F0" font-size="34" font-weight="700">EDUCATION PLACEHOLDER</text>
+    <text x="450" y="474" fill="#94A3B8" font-size="24">Тут должна быть обложка курса / учебного заведения</text>
+  </g>
+</svg>

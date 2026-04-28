@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" fill="none">
+  <defs>
+    <linearGradient id="g1" x1="120" y1="60" x2="1080" y2="660" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE" stop-opacity="0.28"/>
+      <stop offset="0.52" stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0.22"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="720" rx="32" fill="#07101C"/>
+  <rect x="24" y="24" width="1152" height="672" rx="24" fill="url(#g1)" stroke="#1E293B"/>
+  <path d="M132 544L332 344L470 450L646 262L872 490L1038 318" stroke="#67E8F9" stroke-opacity="0.5" stroke-width="8" stroke-linecap="round"/>
+  <rect x="132" y="132" width="936" height="456" rx="26" stroke="#94A3B8" stroke-dasharray="18 16"/>
+  <g opacity="0.82" font-family="Arial, sans-serif" text-anchor="middle">
+    <text x="600" y="334" fill="#E2E8F0" font-size="52" font-weight="700">PROJECT PLACEHOLDER</text>
+    <text x="600" y="396" fill="#94A3B8" font-size="30">Тут должна быть картинка проекта / скриншот / key visual</text>
+    <text x="600" y="446" fill="#64748B" font-size="22">Замените путь в src/data/portfolioData.ts</text>
+  </g>
+</svg>

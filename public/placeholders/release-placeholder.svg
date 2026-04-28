@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" fill="none">
+  <defs>
+    <linearGradient id="g" x1="100" y1="60" x2="780" y2="560" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE" stop-opacity="0.24"/>
+      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0.2"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="620" rx="28" fill="#07101C"/>
+  <rect x="24" y="24" width="852" height="572" rx="22" fill="url(#g)" stroke="#1E293B"/>
+  <rect x="140" y="118" width="620" height="386" rx="26" stroke="#94A3B8" stroke-dasharray="18 16"/>
+  <rect x="198" y="186" width="150" height="150" rx="18" fill="#0F172A" stroke="#67E8F9"/>
+  <rect x="382" y="206" width="300" height="24" rx="12" fill="#CBD5E1" fill-opacity="0.15"/>
+  <rect x="382" y="254" width="250" height="18" rx="9" fill="#CBD5E1" fill-opacity="0.12"/>
+  <rect x="382" y="294" width="220" height="18" rx="9" fill="#CBD5E1" fill-opacity="0.12"/>
+  <rect x="382" y="374" width="110" height="36" rx="18" fill="#0F172A" stroke="#A5B4FC"/>
+  <g opacity="0.82" font-family="Arial, sans-serif" text-anchor="middle">
+    <text x="450" y="92" fill="#E2E8F0" font-size="34" font-weight="700">RELEASE PLACEHOLDER</text>
+    <text x="450" y="550" fill="#94A3B8" font-size="24">Тут должна быть обложка выпущенного проекта</text>
+  </g>
+</svg>
