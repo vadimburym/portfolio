@@ -23,7 +23,7 @@ export const portfolioData: PortfolioData = {
     age: '24 года',
     english: 'B2',
     flagIcon: './placeholders/russia-flag.png',
-    primaryCta: { label: 'Смотреть краткое CV', href: 'https://drive.google.com/file/d/1lfYWYo_v6p2mFsqiBHRYKGXOKBa7DTx1/view?usp=sharing' },
+    primaryCta: { label: 'Смотреть краткое CV', href: 'https://drive.google.com/file/d/17CkzYzZv3AGE9l4V8leycYvPp0MntSHW/view?usp=sharing' },
     secondaryCta: { label: 'Связаться', href: '#contacts' },
     avatar: './placeholders/avatar-placeholder.svg',
   },
