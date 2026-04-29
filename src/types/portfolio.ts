@@ -27,8 +27,6 @@ export type ProjectItem = {
 export type EducationItem = {
   title: string;
   period: string;
-  description: string;
-  achievements: string[];
   image: string;
   linkLabel: string;
   url: string;
@@ -36,7 +34,6 @@ export type EducationItem = {
 
 export type TechCategory = {
   title: string;
-  description: string;
   items: string[];
 };
 
@@ -48,7 +45,6 @@ export type ReleaseItem = {
   linkLabel: string;
   url: string;
   image: string;
-  screenshots: string[];
   stack: string[];
 };
 
@@ -76,8 +72,6 @@ export type PortfolioData = {
   about: {
     title: string;
     description: string;
-    strengths: string[];
-    specializations: string[];
     favoriteGenres: string[];
     lookingFor: string[];
   };

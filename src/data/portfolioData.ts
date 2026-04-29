@@ -1,11 +1,5 @@
 import type { PortfolioData } from '../types/portfolio';
 
-const releaseScreens = [
-  './placeholders/release-screenshot-placeholder.svg',
-  './placeholders/release-screenshot-placeholder.svg',
-  './placeholders/release-screenshot-placeholder.svg',
-];
-
 export const portfolioData: PortfolioData = {
   navigation: [
     { label: 'Обо мне', href: '#about' },
@@ -31,12 +25,6 @@ export const portfolioData: PortfolioData = {
     title: 'Обо мне',
     description:
       'Особенно силен и специализируюсь на задачах: архитектуры, игровых механик, UI, Editor инструментах, оптимизации. Хорошо разбираюсь в существующем коде, быстро вхожу в контекст проекта, объясняю сложные технические решения. Эффективно использую нейросети для ускорения рутинных задач, но критически оцениваю результат и не полагаюсь на него без валидации. Постоянно стремлюсь к саморазвитию и осознанно ищу сложные, интересные задачи, в которых могу расти как специалист и приносить команде максимальную пользу.',
-    strengths: [
-      'Здесь будет сильная сторона №1: архитектура и модульность проекта.',
-      'Здесь будет сильная сторона №2: gameplay-системы и feature ownership.',
-      'Здесь будет сильная сторона №3: стабильность, maintainability и production quality.',
-    ],
-    specializations: ['Gameplay systems', 'Tools development', 'Performance profiling', 'Code architecture'],
     favoriteGenres: [
         'Strategy',
       'Simulation',
@@ -139,12 +127,6 @@ export const portfolioData: PortfolioData = {
     {
       title: 'ЮФУ / Бакалавриат / Прикладная математика и информатика',
       period: '2019 — 2024',
-      description:
-        'Здесь будет описание образования: специализация, релевантные дисциплины и технический фокус на программировании, математике или инженерных дисциплинах.',
-      achievements: [
-        'Здесь будет достижение или сертификат.',
-        'Здесь будет дополнительная информация о результатах обучения.',
-      ],
       image: './placeholders/sfedu.png',
       linkLabel: 'Посмотреть документы',
       url: 'https://drive.google.com/file/d/17oIfFgrs_7iuVDKMuJstWFGGFYlXhkkk/view?usp=sharing',
@@ -152,12 +134,6 @@ export const portfolioData: PortfolioData = {
     {
       title: 'ЮФУ / Магистратура / Разработка мобильных приложений и компьютерных игр',
       period: '2024 — 2026',
-      description:
-        'Здесь будет описание дополнительного курса, программы повышения квалификации или технического интенсива.',
-      achievements: [
-        'Здесь будет achievement / completed track / certification.',
-        'Здесь будет описание практических результатов.',
-      ],
       image: './placeholders/sfedu.png',
       linkLabel: 'Посмотреть документы [временно отсутствует]',
       url: '#',
@@ -165,12 +141,6 @@ export const portfolioData: PortfolioData = {
     {
       title: 'OTUS / Повышение Квалификации / Unity Game Developer Professional',
       period: '2025 — 2026',
-      description:
-        'Здесь будет описание третьего образовательного блока: специализация, итоговый проект и фокус на технических системах или инструментах.',
-      achievements: [
-        'Здесь будет краткое описание сильного практического результата.',
-        'Здесь будет achievement / capstone / final assessment.',
-      ],
       image: './placeholders/otus.png',
       linkLabel: 'Посмотреть документы [временно отсутствует]',
       url: '#',
@@ -179,32 +149,26 @@ export const portfolioData: PortfolioData = {
   techStack: [
     {
       title: 'Core Development',
-      description: 'Базовый стек Unity-разработчика, который формирует инженерный фундамент проекта.',
       items: ['Unity 5', 'Unity 6', 'C#', 'Git', 'OOP', 'DI', 'COP', 'DDD', 'SOLID', 'ECS', 'DOD', 'GoF Patterns', 'GRASP', 'MVP', 'MVVM'],
     },
     {
       title: 'Architecture',
-      description: 'Подходы и инструменты для масштабируемой архитектуры и чистых фичевых пайплайнов.',
       items: ['Zenject', 'VContainer', 'Unity DOTS', 'LeoEcsLite', 'LeoEcsProto', 'ServiceLocator', 'EventBus'],
     },
     {
       title: 'Presentation',
-      description: 'Инструменты для управления камерой, анимацией, UX и визуальной подачей игровых систем.',
       items: ['URP', 'Built-in', 'DOTween', 'Shader Graph', 'HLSL', 'Animator', 'Vertex Shaders', 'Compute Shaders', 'Fragment Shaders'],
     },
     {
       title: 'Optimization',
-      description: 'Стек для анализа производительности, контроля качества и уверенной работы на production-уровне.',
       items: ['Profiler', 'Memory profiling', 'Frame Debugger', 'GC Optimizations', 'IL2CPP', 'SRP Butcher', 'Dynamic Batching', 'GPU Instancing'],
     },
     {
       title: 'AI',
-      description: 'Инструменты и подходы для логики поведения, принятия решений и игровых состояний.',
       items: ['BT', 'FSM', 'HSM', 'GOAP', 'Navigation'],
     },
     {
       title: 'Other',
-      description: 'Сторонние платформы, сервисы и SDK, которые часто нужны в реальных релизных проектах.',
       items: ['UniTask', 'UniRx', 'R3', 'Unity GraphView', 'Odin Inspector', 'Addressables', 'Assembly Definitions', 'ScriptableObject', 'SDK Yandex Games', 'Unity Localization'],
     },
   ],
@@ -218,7 +182,6 @@ export const portfolioData: PortfolioData = {
       linkLabel: 'Ссылка на релиз',
       url: 'https://yandex.ru/games/app/100-kirieshek-evoliutsiia-merge-kliker-489322?utm_source=app_page',
       image: './placeholders/crackers.png',
-      screenshots: releaseScreens,
       stack: ['Unity', 'C#', 'OOP', 'SDK Yandex Games', 'UniTask', 'UniRx', 'ServiceLocator'],
     },
     {
@@ -230,7 +193,6 @@ export const portfolioData: PortfolioData = {
       linkLabel: 'Ссылка на релиз',
       url: 'https://alexa-sp.itch.io/golbeshnik',
       image: './placeholders/golbeshnik.png',
-      screenshots: releaseScreens,
       stack: ['Unity', 'C#', 'Git', 'OOP', 'SOLID', 'Addressables', 'GRASP', 'UniTask', 'UniRx', 'ServiceLocator'],
     },
     {
@@ -242,7 +204,6 @@ export const portfolioData: PortfolioData = {
       linkLabel: 'Ссылка на плагин',
       url: 'https://github.com/vadimburym/DODBT',
       image: './placeholders/open-source-2.png',
-      screenshots: releaseScreens,
       stack: ['Unity', 'C#', 'Unity GraphView', 'Odin Inspector'],
     },
     {
@@ -254,7 +215,6 @@ export const portfolioData: PortfolioData = {
       linkLabel: 'Ссылка на прототип',
       url: 'https://github.com/vadimburym/DOTS-Battle-Simulator-Prototype',
       image: './placeholders/open-source-1.png',
-      screenshots: releaseScreens,
       stack: ['Unity 6.3',
         'C#',
         'ECS',
@@ -277,7 +237,6 @@ export const portfolioData: PortfolioData = {
       linkLabel: 'Ссылка на релиз',
       url: 'https://vadimburym.itch.io/bombertale',
       image: './placeholders/bombertale.png',
-      screenshots: releaseScreens,
       stack: ['Python', 'Python Kivy', 'OOP'],
     },
   ],
