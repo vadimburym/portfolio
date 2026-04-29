@@ -32,10 +32,11 @@
 
 Если сайт не открывается, попробуйте обновить страницу, открыть ссылку в другом браузере или отключить VPN / расширения, которые могут блокировать GitHub Pages.
 
-## Информация
+## Общая Информация
 
 - Telegram: https://t.me/vadimburym  
 - Email: burim00668@gmail.com
-- CV: [https://drive.google.com/](https://drive.google.com/file/d/1lfYWYo_v6p2mFsqiBHRYKGXOKBa7DTx1/view?usp=sharing)
+- CV HR-version: [https://drive.google.com/...](https://drive.google.com/file/d/17CkzYzZv3AGE9l4V8leycYvPp0MntSHW/view?usp=drive_link)
+- CV ATS-version: [https://docs.google.com/...](https://docs.google.com/document/d/1s3ktNsBRIUasmBudGdF-c9UsO5lJSyJF/edit?usp=drive_link&ouid=109443919874510644491&rtpof=true&sd=true)
 - GitHub: https://github.com/vadimburym  
 - Портфолио: https://vadimburym.github.io/portfolio/
